@@ -1,0 +1,28 @@
+----My learnings pointwise from this project
+
+
+0. go mod means pubspec like flutter , specifing versions of other dep mod or packages 
+0.1 usually mod name is set per github url , since this creates an local remote setup like flutter thus we can include with abs path instead of ../paths
+0.2 cmd are compiled programs code
+0.3 internal my dependencies  which is used by this 
+
+1. go lang can have more than one exe in one module.
+2. go compiles code to exe only if there package main in it
+3. one package has one one only main func that tells this packages run from here
+
+
+
+<PROJECT RELATED>
+
+1. fmt.fPrintf(conn,msg) is slower since it formats bytes to string instead use conn.Write() since its sends raw data in B/b
+2.---------
+I/O deadline
+    conn.SetReadDeadline(t)
+    conn.SetWriteDeadline(t)
+Purpose:
+    Prevent blocking forever
+    Regain control of the goroutine
+What it does:
+    Fails one read/write call
+    Does nothing to the connection itself
+    This is not a real deadline. It’s a safety valve.

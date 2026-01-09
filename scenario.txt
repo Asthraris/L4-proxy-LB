@@ -1,0 +1,4 @@
+Layer 4 {network} Proxy {no Direct connection btw Clients & SERVER like passthrough} Standard Load Balancer
+
+- Its not demux LB since its concept of L7 cause it adds framing and source proto details
+- my Own protocol is used from lb to server , if possible

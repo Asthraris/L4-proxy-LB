@@ -1,0 +1,21 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+lb
+server
+client
+
+# Build directories
+/bin/
+/out/
+
+# Dependency cache
+/vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
