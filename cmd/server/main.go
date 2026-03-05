@@ -28,7 +28,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Asthraris/L4-proxy-LB/pkgs/server"
+	"github.com/Asthraris/L4-Proxy-LoadBalancer/pkgs/server"
 )
 
 func main() {

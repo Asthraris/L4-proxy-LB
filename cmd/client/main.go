@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Asthraris/L4-proxy-LB/pkgs/clients"
+	"github.com/Asthraris/L4-Proxy-LoadBalancer/pkgs/clients"
 )
 
 func main() {
